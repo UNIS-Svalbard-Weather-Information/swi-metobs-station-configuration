@@ -1,0 +1,45 @@
+[
+    {
+        "id": "bard",
+        "name": "MS Bard",
+        "project": "IWIN Boats",
+        "url": "https://thredds.met.no/thredds/dodsC/met.no/observations/unis/mobile_AWS_MSBard/10min/%Y/%m/mobile_AWS_MSBard_Table_10min_%Y%m%d.nc",
+        "variables": {
+            "airTemperature": "temperature",
+            "seaSurfaceTemperature": null,
+            "windSpeed": "wind_speed_corrected",
+            "windDirection": "wind_direction_corrected",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/boat/bard.svg",
+        "import_function": "netcdf_boat.netcdf_boat"
+    },
+    {
+        "id": "SN77046",
+        "name": "Ms Billefjord",
+        "project": "IWIN Boats",
+        "url": "https://thredds.met.no/thredds/dodsC/met.no/observations/unis/mobile_AWS_MSBillefjord/10min/%Y/%m/mobile_AWS_MSBillefjord_Table_10min_%Y%m%d.nc",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/boat/billefjorden.svg",
+        "import_function": "netcdf_boat.netcdf_boat"
+    },
+    {
+        "id": "SN77051",
+        "name": "Ms Polargirl",
+        "project": "IWIN Boats",
+        "url": "https://thredds.met.no/thredds/dodsC/met.no/observations/unis/mobile_AWS_MSPolargirl/10min/%Y/%m/mobile_AWS_MSPolargirl_Table_10min_%Y%m%d.nc",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/boat/polargirl.svg",
+        "import_function": "netcdf_boat.netcdf_boat"
+    }
+]

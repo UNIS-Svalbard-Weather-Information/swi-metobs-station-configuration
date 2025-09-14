@@ -1,0 +1,666 @@
+[
+    {
+        "id": "SN99895",
+        "name": "KVADEHUKEN II",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.9633,
+        "lon": 11.3475
+    },
+    {
+        "id": "SN99886",
+        "name": "Kapp Thordsen",
+        "project": "IWIN Lighthouse",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/lighthouse.png",
+        "lat": 78.4563,
+        "lon": 15.4677
+    },
+    {
+        "id": "SN99868",
+        "name": "ENDALEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1905,
+        "lon": 15.7815
+    },
+    {
+        "id": "SN99877",
+        "name": "ADVENTDALEN - ICE-WEDGE",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1805,
+        "lon": 15.9828
+    },
+    {
+        "id": "SN99841",
+        "name": "SVALBARD LH - PLAT\u00c5BERGET",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2342,
+        "lon": 15.3595
+    },
+    {
+        "id": "SN99862",
+        "name": "BREINOSA - BLOCKFIELD PLATEAU",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.143,
+        "lon": 16.0665
+    },
+    {
+        "id": "SN99763",
+        "name": "REINDALSPASSET",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.0648,
+        "lon": 17.0442
+    },
+    {
+        "id": "SN99754",
+        "name": "HORNSUND",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 77.0002,
+        "lon": 15.5353
+    },
+    {
+        "id": "SN99790",
+        "name": "ISFJORD RADIO",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.0625,
+        "lon": 13.6192
+    },
+    {
+        "id": "SN99700",
+        "name": "BJ\u00d8RN\u00d8YA RADIOSONDESTASJON",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 74.5033,
+        "lon": 18.9977
+    },
+    {
+        "id": "SN99879",
+        "name": "ADVENTDALEN - INNERHYTTA PINGO",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1888,
+        "lon": 16.3442
+    },
+    {
+        "id": "SN99888",
+        "name": "Narveneset",
+        "project": "IWIN Lighthouse",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/lighthouse.png",
+        "lat": 78.5634,
+        "lon": 16.2969
+    },
+    {
+        "id": "SN99870",
+        "name": "ADVENTDALEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2022,
+        "lon": 15.831
+    },
+    {
+        "id": "SN99810",
+        "name": "REVNOSA - AGARDH",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.035,
+        "lon": 18.77
+    },
+    {
+        "id": "SN99927",
+        "name": "VERLEGENHUKEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 80.0555,
+        "lon": 16.2433
+    },
+    {
+        "id": "SN99882",
+        "name": "NEDRE SASSENDALEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.3313,
+        "lon": 16.6818
+    },
+    {
+        "id": "SN99855",
+        "name": "LONGYEARDALEN - VALLEY BOTTOM",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2097,
+        "lon": 15.609
+    },
+    {
+        "id": "SN99864",
+        "name": "NYBYEN",
+        "project": "PermaMeteoCommunity",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/metAWS_pmc.png",
+        "lat": 78.201609,
+        "lon": 15.59266
+    },
+    {
+        "id": "SN99885",
+        "name": "Bohemanneset",
+        "project": "IWIN Lighthouse",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/lighthouse.png",
+        "lat": 78.381641,
+        "lon": 14.75285
+    },
+    {
+        "id": "SN99858",
+        "name": "VANNLEDNINGSDALEN",
+        "project": "PermaMeteoCommunity",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/metAWS_pmc.png",
+        "lat": 78.2128,
+        "lon": 15.633
+    },
+    {
+        "id": "SN99867",
+        "name": "GRUVEFJELLET - BLOCKFIELD PLATEAU",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1965,
+        "lon": 15.6317
+    },
+    {
+        "id": "SN99840",
+        "name": "SVALBARD LUFTHAVN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2453,
+        "lon": 15.5015
+    },
+    {
+        "id": "SN99861",
+        "name": "LONGYEARBYEN CEMETERY",
+        "project": "PermaMeteoCommunity",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/metAWS_pmc.png",
+        "lat": 78.2148,
+        "lon": 15.6065
+    },
+    {
+        "id": "SN99735",
+        "name": "EDGE\u00d8YA - KAPP HEUGLIN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2508,
+        "lon": 22.8225
+    },
+    {
+        "id": "SN99843",
+        "name": "PLAT\u00c5BERGET III",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2278,
+        "lon": 15.378
+    },
+    {
+        "id": "SN99720",
+        "name": "HOPEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 76.5097,
+        "lon": 25.0133
+    },
+    {
+        "id": "SN99765",
+        "name": "AKSEL\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 77.6873,
+        "lon": 14.7578
+    },
+    {
+        "id": "SN99902",
+        "name": "NY-\u00c5LESUND - RABBEN FLYPLASS",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.9273,
+        "lon": 11.8837
+    },
+    {
+        "id": "SN99938",
+        "name": "KVIT\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 80.1035,
+        "lon": 31.4585
+    },
+    {
+        "id": "SN99884",
+        "name": "KLAUVA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.3002,
+        "lon": 18.2248
+    },
+    {
+        "id": "SN99887",
+        "name": "Daudmannsodden",
+        "project": "IWIN Lighthouse",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/lighthouse.png",
+        "lat": 78.2106,
+        "lon": 12.9869
+    },
+    {
+        "id": "SN99869",
+        "name": "ADVENTDALEN - LOESS TERRACE",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2017,
+        "lon": 15.8293
+    },
+    {
+        "id": "SN99890",
+        "name": "KAFFI\u00d8YRA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.6568,
+        "lon": 11.9263
+    },
+    {
+        "id": "SN99872",
+        "name": "ADVENTDALEN - UPPER SNOWDRIFT",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1823,
+        "lon": 15.9453
+    },
+    {
+        "id": "SN99935",
+        "name": "KARL XII-\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 80.6518,
+        "lon": 25.0048
+    },
+    {
+        "id": "SN99917",
+        "name": "BAYELVA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.92094,
+        "lon": 11.83334
+    },
+    {
+        "id": "SN99740",
+        "name": "KONGS\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.918,
+        "lon": 28.834
+    },
+    {
+        "id": "SN99875",
+        "name": "JANSSONHAUGEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {},
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.1793,
+        "lon": 16.467
+    },
+    {
+        "id": "SN99857",
+        "name": "LONGYEARDALEN - CENTRAL",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.2127,
+        "lon": 15.6107
+    },
+    {
+        "id": "SN99770",
+        "name": "ISTJ\u00d8RNDALEN",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.0092,
+        "lon": 15.2108
+    },
+    {
+        "id": "SN99752",
+        "name": "S\u00d8RKAPP\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 76.4733,
+        "lon": 16.5428
+    },
+    {
+        "id": "SN99710",
+        "name": "BJ\u00d8RN\u00d8YA",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 74.5035,
+        "lon": 18.998
+    },
+    {
+        "id": "SN99883",
+        "name": "ISFJORDEN - G\u00c5S\u00d8YANE",
+        "project": "IWIN Lighthouse",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity"
+        },
+        "icon": "/static/images/lighthouse.png",
+        "lat": 78.4579,
+        "lon": 16.2008
+    },
+    {
+        "id": "SN99910",
+        "name": "NY-\u00c5LESUND",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.9218,
+        "lon": 11.9325
+    },
+    {
+        "id": "SN99874",
+        "name": "JANSSONHAUGEN VEST",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)",
+            "surfaceSnowThickness": "surface_snow_thickness"
+        },
+        "icon": "/static/images/metAWS.png",
+        "lat": 78.18,
+        "lon": 16.41
+    }
+]
