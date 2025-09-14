@@ -1,5 +1,70 @@
 [
     {
+        "id": "949",
+        "name": "Adventdalen, Gruve 7",
+        "project": "Holfuy",
+        "variables": {
+            "airTemperature": "temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_direction",
+            "windSpeedGust": "wind_gust"
+        },
+        "icon": "/static/images/holfuy.svg",
+        "lat": 78.15952,
+        "lon": 16.0247,
+        "datasource": "HolfuySource"
+    },
+    {
+        "id": "892",
+        "name": "UNIS Vindodden",
+        "project": "Holfuy",
+        "variables": {
+            "airTemperature": "temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_direction",
+            "windSpeedGust": "wind_gust",
+            "relativeHumidity": "humidity"
+        },
+        "icon": "/static/images/holfuy.svg",
+        "lat": 78.33758,
+        "lon": 16.52850,
+        "datasource": "HolfuySource"
+    },
+    {
+        "id": "1154",
+        "name": "Brentskaret_ HS",
+        "project": "Holfuy",
+        "variables": {
+            "airTemperature": "temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_direction",
+            "windSpeedGust": "wind_gust",
+            "airPressure": "pressure"
+        },
+        "icon": "/static/images/holfuy.svg",
+        "lat": 78.20265,
+        "lon": 16.77224,
+        "datasource": "HolfuySource"
+    },
+    {
+        "id": "1876",
+        "name": "UNIS Svea",
+        "project": "Holfuy",
+        "variables": {
+            "airTemperature": "temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_direction",
+            "windSpeedGust": "wind_gust",
+            "airPressure": "pressure",
+            "relativeHumidity": "humidity",
+            "soilTemperature": "2nd_temp"
+        },
+        "icon": "/static/images/holfuy.svg",
+        "lat": 77.89537,
+        "lon": 16.71191,
+        "datasource": "HolfuySource"
+    },
+    {
         "id": "SN99895",
         "name": "KVADEHUKEN II",
         "project": "Met Norway",
@@ -12,7 +77,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.9633,
         "lon": 11.3475
     },
@@ -27,7 +92,7 @@
             "windDirection": "wind_from_direction",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/lighthouse.png",
+        "icon": "/static/images/lighthouse.svg",
         "lat": 78.4563,
         "lon": 15.4677
     },
@@ -37,9 +102,25 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1905,
         "lon": 15.7815
+    },
+    {
+        "id": "SN99811",
+        "name": "Inglefieldbukta",
+        "project": "Met Norway",
+        "url": "https://frost.met.no/sources/v0.jsonld",
+        "variables": {
+            "airTemperature": "air_temperature",
+            "windSpeed": "wind_speed",
+            "windDirection": "wind_from_direction",
+            "relativeHumidity": "relative_humidity",
+            "windSpeedGust": "max(wind_speed_of_gust PT1H)"
+        },
+        "icon": "/static/images/metAWS.svg",
+        "lat": 77.8852552,
+        "lon": 18.27206847
     },
     {
         "id": "SN99877",
@@ -47,7 +128,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1805,
         "lon": 15.9828
     },
@@ -64,7 +145,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2342,
         "lon": 15.3595
     },
@@ -74,7 +155,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.143,
         "lon": 16.0665
     },
@@ -91,7 +172,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.0648,
         "lon": 17.0442
     },
@@ -108,7 +189,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 77.0002,
         "lon": 15.5353
     },
@@ -125,7 +206,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.0625,
         "lon": 13.6192
     },
@@ -135,7 +216,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 74.5033,
         "lon": 18.9977
     },
@@ -145,7 +226,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1888,
         "lon": 16.3442
     },
@@ -160,7 +241,7 @@
             "windDirection": "wind_from_direction",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/lighthouse.png",
+        "icon": "/static/images/lighthouse.svg",
         "lat": 78.5634,
         "lon": 16.2969
     },
@@ -177,7 +258,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2022,
         "lon": 15.831
     },
@@ -194,7 +275,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.035,
         "lon": 18.77
     },
@@ -211,7 +292,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 80.0555,
         "lon": 16.2433
     },
@@ -228,7 +309,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.3313,
         "lon": 16.6818
     },
@@ -238,7 +319,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2097,
         "lon": 15.609
     },
@@ -251,7 +332,7 @@
             "airTemperature": "air_temperature",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/metAWS_pmc.png",
+        "icon": "/static/images/metAWS_pmc.svg",
         "lat": 78.201609,
         "lon": 15.59266
     },
@@ -266,7 +347,7 @@
             "windDirection": "wind_from_direction",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/lighthouse.png",
+        "icon": "/static/images/lighthouse.svg",
         "lat": 78.381641,
         "lon": 14.75285
     },
@@ -279,7 +360,7 @@
             "airTemperature": "air_temperature",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/metAWS_pmc.png",
+        "icon": "/static/images/metAWS_pmc.svg",
         "lat": 78.2128,
         "lon": 15.633
     },
@@ -289,7 +370,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1965,
         "lon": 15.6317
     },
@@ -306,7 +387,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2453,
         "lon": 15.5015
     },
@@ -319,7 +400,7 @@
             "airTemperature": "air_temperature",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/metAWS_pmc.png",
+        "icon": "/static/images/metAWS_pmc.svg",
         "lat": 78.2148,
         "lon": 15.6065
     },
@@ -336,7 +417,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2508,
         "lon": 22.8225
     },
@@ -353,7 +434,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2278,
         "lon": 15.378
     },
@@ -370,7 +451,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 76.5097,
         "lon": 25.0133
     },
@@ -386,7 +467,7 @@
             "relativeHumidity": "relative_humidity",
             "windSpeedGust": "max(wind_speed_of_gust PT1H)"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 77.6873,
         "lon": 14.7578
     },
@@ -400,7 +481,7 @@
             "windSpeed": "wind_speed",
             "windDirection": "wind_from_direction"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.9273,
         "lon": 11.8837
     },
@@ -416,7 +497,7 @@
             "relativeHumidity": "relative_humidity",
             "windSpeedGust": "max(wind_speed_of_gust PT1H)"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 80.1035,
         "lon": 31.4585
     },
@@ -433,7 +514,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.3002,
         "lon": 18.2248
     },
@@ -448,7 +529,7 @@
             "windDirection": "wind_from_direction",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/lighthouse.png",
+        "icon": "/static/images/lighthouse.svg",
         "lat": 78.2106,
         "lon": 12.9869
     },
@@ -458,7 +539,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2017,
         "lon": 15.8293
     },
@@ -475,7 +556,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.6568,
         "lon": 11.9263
     },
@@ -485,7 +566,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1823,
         "lon": 15.9453
     },
@@ -501,7 +582,7 @@
             "relativeHumidity": "relative_humidity",
             "windSpeedGust": "max(wind_speed_of_gust PT1H)"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 80.6518,
         "lon": 25.0048
     },
@@ -517,7 +598,7 @@
             "relativeHumidity": "relative_humidity",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.92094,
         "lon": 11.83334
     },
@@ -533,7 +614,7 @@
             "relativeHumidity": "relative_humidity",
             "windSpeedGust": "max(wind_speed_of_gust PT1H)"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.918,
         "lon": 28.834
     },
@@ -543,7 +624,7 @@
         "project": "Met Norway",
         "url": "https://frost.met.no/sources/v0.jsonld",
         "variables": {},
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.1793,
         "lon": 16.467
     },
@@ -560,7 +641,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.2127,
         "lon": 15.6107
     },
@@ -577,7 +658,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.0092,
         "lon": 15.2108
     },
@@ -593,7 +674,7 @@
             "relativeHumidity": "relative_humidity",
             "windSpeedGust": "max(wind_speed_of_gust PT1H)"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 76.4733,
         "lon": 16.5428
     },
@@ -610,7 +691,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 74.5035,
         "lon": 18.998
     },
@@ -625,7 +706,7 @@
             "windDirection": "wind_from_direction",
             "relativeHumidity": "relative_humidity"
         },
-        "icon": "/static/images/lighthouse.png",
+        "icon": "/static/images/lighthouse.svg",
         "lat": 78.4579,
         "lon": 16.2008
     },
@@ -642,7 +723,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.9218,
         "lon": 11.9325
     },
@@ -659,7 +740,7 @@
             "windSpeedGust": "max(wind_speed_of_gust PT1H)",
             "surfaceSnowThickness": "surface_snow_thickness"
         },
-        "icon": "/static/images/metAWS.png",
+        "icon": "/static/images/metAWS.svg",
         "lat": 78.18,
         "lon": 16.41
     }
