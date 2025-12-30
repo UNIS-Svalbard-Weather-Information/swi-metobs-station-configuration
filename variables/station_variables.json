@@ -1,0 +1,93 @@
+{
+    "airTemperature": {
+        "unit": "°C",
+        "minValue": -40,
+        "maxValue": 50,
+        "name": "Air Temperature",
+        "default": true
+    },
+    "seaSurfaceTemperature": {
+        "unit": "°C",
+        "minValue": -2,
+        "maxValue": 35,
+        "name": "Sea Surface Temperature",
+        "default": false
+    },
+    "windSpeed": {
+        "unit": "m/s",
+        "minValue": 0,
+        "maxValue": 200,
+        "name": "Wind Speed",
+        "default": false
+    },
+    "windSpeedGust": {
+        "unit": "m/s",
+        "minValue": 0,
+        "maxValue": 300,
+        "name": "Wind Gust",
+        "default": false
+    },
+    "windDirection": {
+        "unit": "°",
+        "minValue": 0,
+        "maxValue": 360,
+        "name": "Wind Direction",
+        "default": false
+    },
+    "relativeHumidity": {
+        "unit": "%",
+        "minValue": 0,
+        "maxValue": 100,
+        "name": "Relative Humidity",
+        "default": false
+    },
+    "surfaceSnowThickness": {
+        "unit": "cm",
+        "minValue": 0,
+        "maxValue": 300,
+        "name": "Snow Thickness",
+        "default": false
+    },
+    "airPressure": {
+        "unit": "hPa",
+        "minValue": 500,
+        "maxValue": 1500,
+        "name": "Air Pressure",
+        "default": false
+    },
+    "soilMoisture": {
+        "unit": "%",
+        "minValue": 0,
+        "maxValue": 100,
+        "name": "Soil Moisture",
+        "default": false
+    },
+    "soilTemperature": {
+        "unit": "°C",
+        "minValue": -40,
+        "maxValue": 50,
+        "name": "Soil Temperature",
+        "default": false
+    },
+    "sea_surface_wave_height": {
+        "unit": "m",
+        "minValue": 0,
+        "maxValue": 300,
+        "name": "Significant Wave Height",
+        "default": false
+    },
+    "wave_period_low_moment": {
+        "unit": "s",
+        "minValue": 0,
+        "maxValue": 10,
+        "name": "Low Moment Wave Period",
+        "default": 0.0
+    },
+    "wave_period_high_moment": {
+        "unit": "s",
+        "minValue": 0,
+        "maxValue": 20,
+        "name": "High Moment Wave Period",
+        "default": 0.0
+    }
+}
