@@ -41,5 +41,33 @@
         },
         "icon": "/static/images/boat/polargirl.svg",
         "import_function": "netcdf_boat.netcdf_boat"
+    },
+    {
+        "id": "IWOOS_id5",
+        "name": "IWOOS_id5",
+        "project": "IWOOS",
+        "url": "https://thredds.met.no/thredds/dodsC/metusers/jeanr/misc/IWOOS/%Y_IWOOS_id5_with_tempcalibration_cleaned.nc",
+        "variables": {
+            "sea_surface_wave_height": "pHs0",
+            "wave_period_low_moment": "pT02",
+            "wave_period_high_moment": "pT24",
+            "sea_temperature": "temperature_calibrated_at_positions"
+        },
+        "icon": "/static/images/iwoos.svg",
+        "datasource": "IWOOSNetcdfSource"
+    },
+    {
+        "id": "IWOOS_id4",
+        "name": "IWOOS_id4",
+        "project": "IWOOS",
+        "url": "https://thredds.met.no/thredds/dodsC/metusers/jeanr/misc/IWOOS/%Y_IWOOS_id4_with_tempcalibration_cleaned.nc",
+        "variables": {
+            "sea_surface_wave_height": "pHs0",
+            "wave_period_low_moment": "pT02",
+            "wave_period_high_moment": "pT24",
+            "sea_temperature": "temperature_calibrated_at_positions"
+        },
+        "icon": "/static/images/iwoos.svg",
+        "datasource": "IWOOSNetcdfSource"
     }
 ]
