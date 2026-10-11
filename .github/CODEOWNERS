@@ -1,5 +1,5 @@
-# This is a comment line
-# Each line follows the format: path pattern  @username or @team-name
+# Each line is: path pattern, then the owners that must review changes to it.
+# A team needs its full name (organisation/team) and write access to the repository.
 
-# Global rule:
-@swi_coman
+# swi-metobs-caching pulls these files before every run
+* @UNIS-Svalbard-Weather-Information/swi_coman
