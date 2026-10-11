@@ -1,0 +1,61 @@
+name: Validate stations
+
+# swi-metobs-caching runs `git pull origin main` on this repository before every cron
+# run and reads the station files. Its loader only logs problems: a malformed file
+# silently drops its stations, and an unknown `datasource` silently falls back to a Frost
+# source. This check makes those mistakes fail before they are merged.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate stations
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Test the validator
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Check the structure of the station files
+        run: python3 scripts/validate_stations.py stations
+
+      - name: Find the swi-metobs-caching image deployed in production
+        id: image
+        run: |
+          set -euo pipefail
+          curl -fsSL https://raw.githubusercontent.com/UNIS-Svalbard-Weather-Information/swi-production-deployment/main/compose.yml \
+            > "$RUNNER_TEMP/compose.yml"
+          IMAGE="$(grep -oE 'ghcr.io/unis-svalbard-weather-information/swi-metobs-caching:[^[:space:]]+' "$RUNNER_TEMP/compose.yml" | head -n 1)"
+          if [ -z "$IMAGE" ]; then
+            echo "::error::no swi-metobs-caching image found in swi-production-deployment compose.yml"
+            exit 1
+          fi
+          echo "Checking against $IMAGE"
+          echo "image=$IMAGE" >> "$GITHUB_OUTPUT"
+
+      # Each `datasource` must be one the deployed code knows, otherwise it falls back to
+      # FrostSource without an error. A new source therefore has to be deployed in
+      # swi-metobs-caching before a station can use it.
+      - name: Check the datasource names against the deployed code
+        env:
+          IMAGE: ${{ steps.image.outputs.image }}
+        run: |
+          docker run --rm -e PYTHONPATH=/swi -w /swi -v "$PWD:/repo:ro" \
+            --entrypoint python3 "$IMAGE" \
+            /repo/scripts/validate_stations.py /repo/stations --check-datasources
